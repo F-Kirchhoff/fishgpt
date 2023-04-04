@@ -57,7 +57,12 @@ export default function Home() {
         <button type="button" onClick={handleReset}>
           reset
         </button>
-        <input name="query" type="text" placeholder="ask chatGPT something" />
+        <input
+          name="query"
+          type="text"
+          autoComplete="off"
+          placeholder="describe the feature"
+        />
         <button type="submit">go</button>
       </form>
       <ul>
